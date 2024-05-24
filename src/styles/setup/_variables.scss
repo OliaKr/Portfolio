@@ -1,5 +1,5 @@
 //colors
-$main-clr: rgb(104, 60, 229);
+$main-clr: rgb(66 15 231);
 $font-clr1: #ffffff;
 $font-clr2: #ffffffb2;
 $font-clr3: #ffffff99;
@@ -9,4 +9,42 @@ $font-clr5: #ffffff80;
 :root {
   //paddings
   --padding-inline: 2.5rem;
+}
+
+// Breakpoints
+$mobile-breakpoint: 393px;
+$tablet-breakpoint: 640px;
+$narrow-breakpoint: 768px;
+$wide-breakpoint: 1024px;
+$desktop-breakpoint: 1280px;
+$full-breakpoint: 1536px;
+
+@media (min-width: $mobile-breakpoint) {
+  :root {
+    --padding-inline: 3rem;
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  :root {
+    --padding-inline: 7rem;
+  }
+}
+
+@media (min-width: $narrow-breakpoint) {
+  :root {
+    --padding-inline: 8rem;
+  }
+}
+
+@media (min-width: $wide-breakpoint) {
+  :root {
+    --padding-inline: 10rem;
+  }
+}
+
+@media (min-width: $desktop-breakpoint) {
+  :root {
+    --padding-inline: 11rem;
+  }
 }

@@ -1,0 +1,140 @@
+.social-link {
+  .icon-container {
+    background-color: $font-clr2;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: 0.2s;
+    transform: scale(0, 0);
+    animation: scaleIn 0.5s ease-out 0.3s forwards;
+
+    @include for-mobile-layout {
+      width: 4.4rem;
+      height: 4.4rem;
+    }
+
+    @include for-table-layout {
+      position: absolute;
+
+      &.gmail {
+        top: 65%;
+        left: 3%;
+      }
+
+      &.github {
+        top: 13%;
+        left: 45%;
+      }
+
+      &.linkedin {
+        top: 40%;
+        right: 5%;
+      }
+    }
+
+    @include for-narrow-layout {
+      width: 4.8rem;
+      height: 4.8rem;
+
+      &.github {
+        top: 11%;
+        left: 43%;
+      }
+
+      &.linkedin {
+        top: 40%;
+        right: 5%;
+      }
+    }
+
+    @include for-wide-layout {
+      width: 5.2rem;
+      height: 5.2rem;
+
+      &.github {
+        top: 9%;
+        left: 47%;
+      }
+    }
+
+    @include for-desktop-layout {
+      width: 5.6rem;
+      height: 5.6rem;
+
+      &.github {
+        top: 8.2%;
+        left: 50%;
+      }
+    }
+
+    @include for-full-layout {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    .img-container {
+      background-color: $font-clr4;
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      transform: scale(0, 0);
+      animation: scaleIn 0.5s ease-out 0.8s forwards;
+
+      @include for-mobile-layout {
+        width: 3.4rem;
+        height: 3.4rem;
+      }
+
+      @include for-narrow-layout {
+        width: 3.8rem;
+        height: 3.8rem;
+      }
+
+      @include for-wide-layout {
+        width: 4.2rem;
+        height: 4.2rem;
+      }
+
+      @include for-desktop-layout {
+        width: 4.6rem;
+        height: 4.6rem;
+      }
+
+      @include for-full-layout {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      img {
+        width: 27px;
+        height: 27px;
+        transition: 0.2s;
+        opacity: 0;
+
+        animation: fadeIn 0.5s ease-out 1.3s forwards;
+
+        @include for-table-layout {
+          width: 41px;
+          height: 41px;
+        }
+
+        @include for-narrow-layout {
+          width: 43px;
+          height: 43px;
+        }
+      }
+    }
+
+    &:hover {
+      transform: scale(1.1, 1.1);
+
+      img {
+        transform: scale(0.9, 0.9);
+      }
+    }
+  }
+}
+
+@include scaleIn;
+
+@include fadeIn;

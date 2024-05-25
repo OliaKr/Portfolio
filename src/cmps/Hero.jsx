@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./Header";
+import { socials } from "../socialData";
+import FloatingIcons from "./FloatingIcons";
 
 const Hero = () => {
   return (
@@ -14,7 +16,7 @@ const Hero = () => {
         </h1>
         <h2 className="font-Gilmer-Bold">
           <span className="span-4">I</span>{" "}
-          <span className="span-5">develope</span>{" "}
+          <span className="span-5">develop</span>{" "}
           <span className="span-6">Creative</span>{" "}
           <span className="span-7">&</span>{" "}
           <span className="span-8">Interactive</span>{" "}
@@ -35,6 +37,19 @@ const Hero = () => {
         <div className="flex align-center justify-center img-container">
           <img src="/images/girl-code2.png" />
         </div>
+      </div>
+
+      <div className="flex socials-container">
+        {socials.map((social) => {
+          return (
+            <FloatingIcons
+              key={socials.name}
+              name={social.name}
+              imgUrl={`images/${social.name}.svg`}
+              link={social.link}
+            />
+          );
+        })}
       </div>
     </div>
   );

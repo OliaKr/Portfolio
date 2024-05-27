@@ -43,7 +43,7 @@ const Hero = () => {
         {socials.map((social) => {
           return (
             <FloatingIcons
-              key={socials.name}
+              key={social.name}
               name={social.name}
               imgUrl={`images/${social.name}.svg`}
               link={social.link}

@@ -6,13 +6,14 @@ const ProjectList = () => {
     {
       title: "Car-Portal",
       imgUrl: "/images/Cars.JPG",
-      description: "A car portal website for all car lovers",
+      description:
+        "A car portal website for all car lovers.It offers different car for every car lover",
       gitLink: "https://github.com/OliaKr/Cars-Next.js",
       website: "https://cars-next-js-gair-oliakr.vercel.app/",
     },
     {
       title: "Marina-Therapist",
-      imgUrl: "/images/Marina.jpg",
+      imgUrl: "/images/Marina6.png",
       description:
         'A buisness website developed for the professional therapist "Marina-Massage-Therapist"',
       gitLink: "https://github.com/Marina-Massage-Therapy/frontend",

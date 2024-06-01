@@ -5,22 +5,20 @@ const Header = () => {
     <div className="avatar-container flex space-between align center">
       <Avatar
         alt="Remy Sharp"
+        className="custom-avatar"
         sx={{
-          width: "110px", // Width of the Avatar
-          height: "110px", // Height of the Avatar
-          overflow: "hidden", // Ensures no part of the image spills out
+          overflow: "hidden",
           bgcolor: "primary.dark",
           "& img": {
-            objectFit: "cover", // Covers the available area
-            // width: "100%",
+            objectFit: "cover",
             height: "auto",
-            // transform: "translate(4%, 6%)",
           },
         }}
         src="/images/avatar7.png"
       />
-      <div className="personal-blog ">
-        <button>Blog</button>
+      <div className="work-status flex space-between align-center">
+        <div className="dash"></div>
+        <p className="font-Gilmer-Medium">Available For Work</p>
       </div>
     </div>
   );

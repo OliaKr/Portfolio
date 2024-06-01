@@ -12,7 +12,10 @@ const FloatingIcons = ({ name, imgUrl, link }) => {
         className={`${name} flex justify-center align-center icon-container`}
       >
         <div className="flex justify-center align-center img-container">
-          <img src={imgUrl} />
+          <img
+            src={imgUrl}
+            alt={`${name} icon`}
+          />
         </div>
       </div>
     </a>

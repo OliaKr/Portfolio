@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./Header";
 import { socials } from "../socialData";
 import FloatingIcons from "./FloatingIcons";
+import { Player } from "@lottiefiles/react-lottie-player";
+import codingAnimation from "../assets/icons/codingAnimation.json";
 
 const Hero = () => {
   return (
@@ -35,11 +37,17 @@ const Hero = () => {
         </p>
 
         <div className="flex align-center justify-center img-container">
-          <img src="/images/girl-code2.png" />
+          <Player
+            autoplay
+            loop
+            src={codingAnimation}
+            // style={{ height: "210px", width: "210px" }}
+            className="lottie-animation"
+          />
         </div>
       </div>
 
-      <div className="flex socials-container">
+      <div className="flex space-between align-center socials-container">
         {socials.map((social) => {
           return (
             <FloatingIcons

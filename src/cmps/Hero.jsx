@@ -41,7 +41,6 @@ const Hero = () => {
             autoplay
             loop
             src={codingAnimation}
-            // style={{ height: "210px", width: "210px" }}
             className="lottie-animation"
           />
         </div>

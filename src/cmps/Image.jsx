@@ -5,7 +5,7 @@ export function Image({ src, classes }) {
   const [isRender, setIsRender] = useState(false);
 
   useEffect(() => {
-    let observer; // Declare observer in the outer scope
+    let observer;
 
     const observerTimeout = setTimeout(() => {
       observer = new IntersectionObserver(
@@ -31,13 +31,14 @@ export function Image({ src, classes }) {
     };
   }, [src]);
 
-  if (!isRender)
+  if (!isRender) {
     return (
       <span
-        className={`${classes} image-comp`}
+        className={`image-comp ${classes}`}
         ref={imageRef}
       ></span>
     );
+  }
 
   return (
     <img

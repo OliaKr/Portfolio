@@ -3,6 +3,7 @@ import Hero from "../cmps/Hero";
 import Projects from "../cmps/Projects";
 import Skills from "../cmps/Skills";
 import Carousel from "../cmps/Carousel";
+import Contact from "../cmps/Contact";
 
 const HomePage = () => {
   return (
@@ -10,7 +11,7 @@ const HomePage = () => {
       <Hero />
       <Projects />
       <Skills />
-      <Carousel />
+      <Contact />
     </div>
   );
 };

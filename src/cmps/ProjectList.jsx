@@ -16,8 +16,8 @@ const ProjectList = () => {
       imgUrl: "/images/Marina6.png",
       description:
         'A buisness website developed for the professional therapist "Marina-Massage-Therapist"',
-      gitLink: "https://github.com/Marina-Massage-Therapy/frontend",
-      website: "https://main.d2tvvv5hcr4651.amplifyapp.com/home",
+      gitLink: "https://github.com/Marina-Massage-Therapy/",
+      website: "https://main.d2tvvv5hcr4651.amplifyapp.com/",
     },
   ];
 

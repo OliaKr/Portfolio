@@ -28,21 +28,21 @@ const Contact = () => {
         <p className="font-Gilmer-Light info">
           I'm active on{" "}
           <a
-            href="https://www.linkedin.com/in/eden-rize-9476541b7/"
+            href="https://www.linkedin.com/in/olia-krasilnikov//"
             target="_blank"
           >
             LinkedIn
           </a>
           , so you can reach me there. I'm also available on{" "}
           <a
-            href="https://www.facebook.com/profile.php?id=100006550717856"
+            href="https://www.facebook.com/profile.php?id=100010372724389"
             target="_blank"
           >
             Facebook
           </a>{" "}
           and on{" "}
           <a
-            href="https://www.instagram.com/edenrize/"
+            href="https://www.instagram.com/olia_kass/"
             target="_blank"
           >
             Instagram

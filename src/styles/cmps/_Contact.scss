@@ -74,52 +74,6 @@
         max-width: 64rem;
       }
     }
-
-    .resume-link {
-      display: block;
-      text-decoration: none;
-      width: max-content;
-
-      .resume {
-        background-color: transparent;
-        margin-block: 2rem;
-        color: $font-clr1;
-        border: 1px $font-clr5 solid;
-        border-radius: 9999px;
-        padding-block: 12px;
-        padding-inline: 24px;
-        transition: 0.2s;
-        font-size: 1rem;
-        cursor: pointer;
-
-        &:hover {
-          background-color: rgb(36 6 88/1);
-        }
-
-        .image-comp {
-          min-width: 20px;
-          margin-inline-end: 0.5rem;
-          width: 20px;
-
-          @include for-table-layout {
-            width: 20px;
-          }
-
-          @include for-desktop-layout {
-            width: 25px;
-          }
-        }
-
-        @include for-table-layout {
-          margin-block: 2.5rem;
-          font-size: 1.2rem;
-        }
-
-        @include for-desktop-layout {
-          font-size: 1.5rem;
-        }
-      }
-    }
   }
 
   .links-container {

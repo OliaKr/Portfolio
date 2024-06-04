@@ -49,17 +49,6 @@ const Contact = () => {
           </a>
           . Contact me !
         </p>
-
-        {/* <a
-          className="resume-link"
-          href="/files/Eden_Rize-Resume.pdf"
-          download="Eden Rize - Resume.pdf"
-        >
-          <button className="flex align-center resume">
-            <Image src="/img/pdf.svg" />
-            <p className="font-Gilmer-Bold">Download Resume</p>
-          </button>
-        </a> */}
       </div>
 
       <div className="flex align-center space-between links-container">

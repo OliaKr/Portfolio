@@ -4,16 +4,16 @@ import { Image } from "./Image";
 const ProjectList = () => {
   const projects = [
     {
-      title: "Car-Portal",
-      imgUrl: "/images/Cars.JPG",
+      title: "Brainwave",
+      imgUrl: "/images/screen2.JPG",
       description:
-        "A car portal website for all car lovers.It offers different car for every car lover",
-      gitLink: "https://github.com/OliaKr/Cars-Next.js",
-      website: "https://cars-next-js-gair-oliakr.vercel.app/",
+        "An interactive landing page that highlights the features and benefits of the Brainwave AI chatbot app",
+      gitLink: "https://github.com/OliaKr/Brainwave",
+      website: "https://main.d3f7nseedr4ova.amplifyapp.com/",
     },
     {
       title: "Marina-Therapist",
-      imgUrl: "/images/Marina6.png",
+      imgUrl: "/images/screen5.JPG",
       description:
         'A buisness website developed for the professional therapist "Marina-Massage-Therapist"',
       gitLink: "https://github.com/Marina-Massage-Therapy/",
